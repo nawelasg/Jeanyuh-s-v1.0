@@ -1,0 +1,125 @@
+.items {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  position: absolute;
+  z-index: 100;
+  left: 0;
+  width: 100%;
+  padding: 0;
+}
+
+.items li {
+  list-style: none;
+  padding: 2px;
+  margin: 2px;
+}
+
+.items li a {
+  font-family: Helvetica cursive;
+  color: white;
+  text-decoration: underline;
+  font-size: 1.5em;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.intro-main {
+  height: 250px;
+  background-image: url(images/suhyeon-choi-qtI5z1u_vF8-unsplash.jpg);
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.intro-main h1 {
+  font-family: Helvetica;
+  text-align: center;
+  color: white;
+  font-size: 4em;
+  font-weight: bold;
+  margin-top: 150px;
+}
+
+.intro-main header {
+  display: flex;
+  flex: 4;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+body {
+  font-family: Helvetica;
+  background-color: #0c0c0d;
+  background-image: url(images/suhyeon-choi-qtI5z1u_vF8-unsplash.jpg);
+  background-size: cover;
+}
+
+.menu-section {
+  background-position: center;
+  color: white;
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 800px;
+  border-radius: 5px;
+}
+
+.menu-section h2 {
+  font-size: 24px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.menu-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+.menu-table caption {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.menu-table th,
+.menu-table td {
+  border: 1px solid silver;
+  padding: 10px;
+  text-align: left;
+}
+
+.menu-table th {
+  background-color: #333;
+  color: white;
+  font-weight: bold;
+}
+
+.menu-table td {
+  background-color: #f5f5f5;
+  color: #333;
+}
+
+.menu-table tr:nth-child(even) {
+  background-color: #e0e0e0;
+}
+
+.menu-table tr:hover {
+  background-color: #ccc;
+}
+
+.btn {
+  background-color: silver;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: grey;
+}
